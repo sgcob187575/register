@@ -15,6 +15,13 @@
 		126616A523768BCA00188F11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126616A323768BCA00188F11 /* LaunchScreen.storyboard */; };
 		126616B023768BCA00188F11 /* registerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126616AF23768BCA00188F11 /* registerTests.swift */; };
 		126616BB23768BCA00188F11 /* registerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126616BA23768BCA00188F11 /* registerUITests.swift */; };
+		126616CB23768C8700188F11 /* people.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126616CA23768C8700188F11 /* people.swift */; };
+		126616CF2376A33000188F11 /* SongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126616CE2376A33000188F11 /* SongView.swift */; };
+		126616D12376A63D00188F11 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126616D02376A63D00188F11 /* data.swift */; };
+		126616D32377110400188F11 /* result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126616D22377110400188F11 /* result.swift */; };
+		126616E32377D13700188F11 /* 不搖滾 (feat. 房東的貓).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 126616E02377D13700188F11 /* 不搖滾 (feat. 房東的貓).mp3 */; };
+		126616E42377D13700188F11 /* 來互相傷害 (feat. A-Lin).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 126616E12377D13700188F11 /* 來互相傷害 (feat. A-Lin).mp3 */; };
+		126616E52377D13700188F11 /* 我怎麼哭了.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 126616E22377D13700188F11 /* 我怎麼哭了.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		126616B623768BCA00188F11 /* registerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = registerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		126616BA23768BCA00188F11 /* registerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerUITests.swift; sourceTree = "<group>"; };
 		126616BC23768BCA00188F11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		126616CA23768C8700188F11 /* people.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = people.swift; sourceTree = "<group>"; };
+		126616CE2376A33000188F11 /* SongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongView.swift; sourceTree = "<group>"; };
+		126616D02376A63D00188F11 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		126616D22377110400188F11 /* result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = result.swift; sourceTree = "<group>"; };
+		126616E02377D13700188F11 /* 不搖滾 (feat. 房東的貓).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "不搖滾 (feat. 房東的貓).mp3"; sourceTree = "<group>"; };
+		126616E12377D13700188F11 /* 來互相傷害 (feat. A-Lin).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "來互相傷害 (feat. A-Lin).mp3"; sourceTree = "<group>"; };
+		126616E22377D13700188F11 /* 我怎麼哭了.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "我怎麼哭了.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +93,7 @@
 		1266168C23768BC800188F11 = {
 			isa = PBXGroup;
 			children = (
+				126616CA23768C8700188F11 /* people.swift */,
 				1266169723768BC800188F11 /* register */,
 				126616AE23768BCA00188F11 /* registerTests */,
 				126616B923768BCA00188F11 /* registerUITests */,
@@ -99,9 +114,15 @@
 		1266169723768BC800188F11 /* register */ = {
 			isa = PBXGroup;
 			children = (
+				126616E02377D13700188F11 /* 不搖滾 (feat. 房東的貓).mp3 */,
+				126616E22377D13700188F11 /* 我怎麼哭了.mp3 */,
+				126616E12377D13700188F11 /* 來互相傷害 (feat. A-Lin).mp3 */,
 				1266169823768BC800188F11 /* AppDelegate.swift */,
 				1266169A23768BC800188F11 /* SceneDelegate.swift */,
 				1266169C23768BC800188F11 /* ContentView.swift */,
+				126616CE2376A33000188F11 /* SongView.swift */,
+				126616D22377110400188F11 /* result.swift */,
+				126616D02376A63D00188F11 /* data.swift */,
 				1266169E23768BCA00188F11 /* Assets.xcassets */,
 				126616A323768BCA00188F11 /* LaunchScreen.storyboard */,
 				126616A623768BCA00188F11 /* Info.plist */,
@@ -241,8 +262,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				126616A523768BCA00188F11 /* LaunchScreen.storyboard in Resources */,
+				126616E42377D13700188F11 /* 來互相傷害 (feat. A-Lin).mp3 in Resources */,
+				126616E32377D13700188F11 /* 不搖滾 (feat. 房東的貓).mp3 in Resources */,
 				126616A223768BCA00188F11 /* Preview Assets.xcassets in Resources */,
 				1266169F23768BCA00188F11 /* Assets.xcassets in Resources */,
+				126616E52377D13700188F11 /* 我怎麼哭了.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,8 +291,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				126616CB23768C8700188F11 /* people.swift in Sources */,
+				126616D12376A63D00188F11 /* data.swift in Sources */,
 				1266169923768BC800188F11 /* AppDelegate.swift in Sources */,
+				126616CF2376A33000188F11 /* SongView.swift in Sources */,
 				1266169B23768BC800188F11 /* SceneDelegate.swift in Sources */,
+				126616D32377110400188F11 /* result.swift in Sources */,
 				1266169D23768BC800188F11 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
