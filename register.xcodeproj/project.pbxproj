@@ -21,7 +21,10 @@
 		126616D32377110400188F11 /* result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126616D22377110400188F11 /* result.swift */; };
 		126616E32377D13700188F11 /* 不搖滾 (feat. 房東的貓).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 126616E02377D13700188F11 /* 不搖滾 (feat. 房東的貓).mp3 */; };
 		126616E42377D13700188F11 /* 來互相傷害 (feat. A-Lin).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 126616E12377D13700188F11 /* 來互相傷害 (feat. A-Lin).mp3 */; };
-		126616E52377D13700188F11 /* 我怎麼哭了.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 126616E22377D13700188F11 /* 我怎麼哭了.mp3 */; };
+		12FEE65A23D1FF550017DEB8 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12FEE65923D1FF550017DEB8 /* NotificationCenter.framework */; };
+		12FEE65D23D1FF550017DEB8 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FEE65C23D1FF550017DEB8 /* TodayViewController.swift */; };
+		12FEE66023D1FF550017DEB8 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FEE65E23D1FF550017DEB8 /* MainInterface.storyboard */; };
+		12FEE66423D1FF550017DEB8 /* textetension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 12FEE65723D1FF550017DEB8 /* textetension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,28 @@
 			remoteGlobalIDString = 1266169423768BC800188F11;
 			remoteInfo = register;
 		};
+		12FEE66223D1FF550017DEB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1266168D23768BC800188F11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12FEE65623D1FF550017DEB8;
+			remoteInfo = textetension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		12FEE66523D1FF550017DEB8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				12FEE66423D1FF550017DEB8 /* textetension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1266169523768BC800188F11 /* register.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = register.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,7 +86,11 @@
 		126616D22377110400188F11 /* result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = result.swift; sourceTree = "<group>"; };
 		126616E02377D13700188F11 /* 不搖滾 (feat. 房東的貓).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "不搖滾 (feat. 房東的貓).mp3"; sourceTree = "<group>"; };
 		126616E12377D13700188F11 /* 來互相傷害 (feat. A-Lin).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "來互相傷害 (feat. A-Lin).mp3"; sourceTree = "<group>"; };
-		126616E22377D13700188F11 /* 我怎麼哭了.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "我怎麼哭了.mp3"; sourceTree = "<group>"; };
+		12FEE65723D1FF550017DEB8 /* textetension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = textetension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		12FEE65923D1FF550017DEB8 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		12FEE65C23D1FF550017DEB8 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		12FEE65F23D1FF550017DEB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		12FEE66123D1FF550017DEB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +115,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		12FEE65423D1FF550017DEB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12FEE65A23D1FF550017DEB8 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -97,6 +133,8 @@
 				1266169723768BC800188F11 /* register */,
 				126616AE23768BCA00188F11 /* registerTests */,
 				126616B923768BCA00188F11 /* registerUITests */,
+				12FEE65B23D1FF550017DEB8 /* textetension */,
+				12FEE65823D1FF550017DEB8 /* Frameworks */,
 				1266169623768BC800188F11 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,6 +145,7 @@
 				1266169523768BC800188F11 /* register.app */,
 				126616AB23768BCA00188F11 /* registerTests.xctest */,
 				126616B623768BCA00188F11 /* registerUITests.xctest */,
+				12FEE65723D1FF550017DEB8 /* textetension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,7 +154,6 @@
 			isa = PBXGroup;
 			children = (
 				126616E02377D13700188F11 /* 不搖滾 (feat. 房東的貓).mp3 */,
-				126616E22377D13700188F11 /* 我怎麼哭了.mp3 */,
 				126616E12377D13700188F11 /* 來互相傷害 (feat. A-Lin).mp3 */,
 				1266169823768BC800188F11 /* AppDelegate.swift */,
 				1266169A23768BC800188F11 /* SceneDelegate.swift */,
@@ -157,6 +195,24 @@
 			path = registerUITests;
 			sourceTree = "<group>";
 		};
+		12FEE65823D1FF550017DEB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12FEE65923D1FF550017DEB8 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12FEE65B23D1FF550017DEB8 /* textetension */ = {
+			isa = PBXGroup;
+			children = (
+				12FEE65C23D1FF550017DEB8 /* TodayViewController.swift */,
+				12FEE65E23D1FF550017DEB8 /* MainInterface.storyboard */,
+				12FEE66123D1FF550017DEB8 /* Info.plist */,
+			);
+			path = textetension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,10 +223,12 @@
 				1266169123768BC800188F11 /* Sources */,
 				1266169223768BC800188F11 /* Frameworks */,
 				1266169323768BC800188F11 /* Resources */,
+				12FEE66523D1FF550017DEB8 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				12FEE66323D1FF550017DEB8 /* PBXTargetDependency */,
 			);
 			name = register;
 			productName = register;
@@ -213,13 +271,30 @@
 			productReference = 126616B623768BCA00188F11 /* registerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		12FEE65623D1FF550017DEB8 /* textetension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12FEE66823D1FF550017DEB8 /* Build configuration list for PBXNativeTarget "textetension" */;
+			buildPhases = (
+				12FEE65323D1FF550017DEB8 /* Sources */,
+				12FEE65423D1FF550017DEB8 /* Frameworks */,
+				12FEE65523D1FF550017DEB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = textetension;
+			productName = textetension;
+			productReference = 12FEE65723D1FF550017DEB8 /* textetension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		1266168D23768BC800188F11 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1110;
+				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = Chen_Yu_Hao;
 				TargetAttributes = {
@@ -233,6 +308,9 @@
 					126616B523768BCA00188F11 = {
 						CreatedOnToolsVersion = 11.1;
 						TestTargetID = 1266169423768BC800188F11;
+					};
+					12FEE65623D1FF550017DEB8 = {
+						CreatedOnToolsVersion = 11.3;
 					};
 				};
 			};
@@ -252,6 +330,7 @@
 				1266169423768BC800188F11 /* register */,
 				126616AA23768BCA00188F11 /* registerTests */,
 				126616B523768BCA00188F11 /* registerUITests */,
+				12FEE65623D1FF550017DEB8 /* textetension */,
 			);
 		};
 /* End PBXProject section */
@@ -266,7 +345,6 @@
 				126616E32377D13700188F11 /* 不搖滾 (feat. 房東的貓).mp3 in Resources */,
 				126616A223768BCA00188F11 /* Preview Assets.xcassets in Resources */,
 				1266169F23768BCA00188F11 /* Assets.xcassets in Resources */,
-				126616E52377D13700188F11 /* 我怎麼哭了.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +359,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12FEE65523D1FF550017DEB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12FEE66023D1FF550017DEB8 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +403,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		12FEE65323D1FF550017DEB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12FEE65D23D1FF550017DEB8 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -330,6 +424,11 @@
 			target = 1266169423768BC800188F11 /* register */;
 			targetProxy = 126616B723768BCA00188F11 /* PBXContainerItemProxy */;
 		};
+		12FEE66323D1FF550017DEB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12FEE65623D1FF550017DEB8 /* textetension */;
+			targetProxy = 12FEE66223D1FF550017DEB8 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -339,6 +438,14 @@
 				126616A423768BCA00188F11 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		12FEE65E23D1FF550017DEB8 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12FEE65F23D1FF550017DEB8 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -461,6 +568,7 @@
 		126616C023768BCA00188F11 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"register/Preview Content\"";
@@ -481,6 +589,7 @@
 		126616C123768BCA00188F11 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"register/Preview Content\"";
@@ -582,6 +691,46 @@
 			};
 			name = Release;
 		};
+		12FEE66623D1FF550017DEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NTXR9F489V;
+				INFOPLIST_FILE = textetension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dte.register.textetension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12FEE66723D1FF550017DEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NTXR9F489V;
+				INFOPLIST_FILE = textetension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dte.register.textetension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -617,6 +766,15 @@
 			buildConfigurations = (
 				126616C623768BCA00188F11 /* Debug */,
 				126616C723768BCA00188F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12FEE66823D1FF550017DEB8 /* Build configuration list for PBXNativeTarget "textetension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12FEE66623D1FF550017DEB8 /* Debug */,
+				12FEE66723D1FF550017DEB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
